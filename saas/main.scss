@@ -1,0 +1,46 @@
+body {
+    font-family: "Muli", sans-serif;
+    color: #1e1e1e;
+    font-weight: 400;
+    font-size: 1.8rem;
+    background-color: #fff;
+}
+
+    .container {
+        max-width: 1415px;
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+
+
+
+.page {
+    display: grid;
+    grid-template-columns: 25% 9% 16% 13% 3% 9% 25%;
+
+
+}
+
+
+
+@import "./blocks/header";
+@import "./blocks/why";
+@import "./blocks/about";
+@import "./blocks/null";
+@import "./blocks/item";
+@import "./blocks/box";
+@import "./blocks/know";
+@import "./blocks/contact";
+@import "./blocks/info";
+@import "./blocks/footer";
+
+
+
+
+
+
+
+
+

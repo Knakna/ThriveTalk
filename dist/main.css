@@ -1,0 +1,254 @@
+body {
+  font-family: "Muli", sans-serif;
+  color: #1e1e1e;
+  font-weight: 400;
+  font-size: 1.8rem;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1415px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.page {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 9% 16% 13% 3% 9% 25%;
+      grid-template-columns: 25% 9% 16% 13% 3% 9% 25%;
+}
+
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 7;
+  grid-area: 1/1/2/8;
+}
+
+.why-content {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: 2/1/3/5;
+}
+
+.why-img {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-area: 2/5/3/8;
+}
+
+.about-title {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 3/1/4/2;
+}
+
+.about-content {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 6;
+  grid-area: 3/2/4/8;
+}
+
+.about-item--pink {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 4/1/5/2;
+}
+
+.about-item--green {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: 4/2/5/4;
+}
+
+.about-item--main {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 3;
+  grid-area: 4/4/5/7;
+}
+
+.about-item--blue {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 1;
+  grid-area: 4/7/5/8;
+}
+
+.null {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 7;
+  grid-area: 5/1/6/8;
+}
+
+.item--bg-dark {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 6/1/7/3;
+}
+
+.item--bg-blue {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-area: 6/3/7/6;
+}
+
+.item--bg-img {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-area: 6/6/7/8;
+}
+
+.item--bg-main {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 7/1/8/3;
+}
+
+.item--bg-light {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-area: 7/3/8/6;
+}
+
+.item--bg-purple {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-area: 7/6/8/8;
+}
+
+.box--1 {
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 8/1/9/3;
+}
+
+.box--2 {
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-area: 8/3/9/6;
+}
+
+.box--3 {
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-area: 8/6/9/8;
+}
+
+.box--4 {
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 9/1/10/3;
+}
+
+.box--5 {
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-area: 9/3/10/6;
+}
+
+.box--6 {
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-area: 9/6/10/8;
+}
+
+.know-img {
+  -ms-grid-row: 10;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 10/1/11/3;
+}
+
+.know-content {
+  -ms-grid-row: 10;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 5;
+  grid-area: 10/3/11/8;
+}
+
+.contact-content {
+  -ms-grid-row: 11;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-area: 11/1/12/6;
+}
+
+.contact-img {
+  -ms-grid-row: 11;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-area: 11/6/12/8;
+}
+
+.info-img {
+  -ms-grid-row: 12;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: 12/1/13/4;
+}
+
+.info-content {
+  -ms-grid-row: 12;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 4;
+  grid-area: 12/4/13/8;
+}
+
+.footer {
+  -ms-grid-row: 13;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 7;
+  grid-area: 13/1/14/8;
+}
+/*# sourceMappingURL=main.css.map */
