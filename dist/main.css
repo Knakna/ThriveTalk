@@ -1,13 +1,27 @@
+@font-face {
+  font-family: 'Larsseit';
+  src: local("Larsseit Bold"), local("Larsseit-Bold"), url("../assets/fonts/Larsseit-Bold.woff2") format("woff2"), url("../assets/fonts/Larsseit-Bold.woff") format("woff"), url("../assets/fonts/Larsseit-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Larsseit';
+  src: local("Larsseit Regular"), local("Larsseit-Regular"), url("../assets/fonts/Larsseit.woff2") format("woff2"), url("../assets/fonts/Larsseit.woff") format("woff"), url("../assets/fonts/Larsseit.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
-  font-family: "Muli", sans-serif;
-  color: #1e1e1e;
+  font-family: 'Larsseit', sans-serif;
+  color: #22356F;
   font-weight: 400;
   font-size: 1.8rem;
   background-color: #fff;
 }
 
 .container {
-  max-width: 1415px;
+  max-width: 1430px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -76,7 +90,7 @@ body {
   grid-area: 4/2/5/4;
 }
 
-.about-item--main {
+.about-item--brand {
   -ms-grid-row: 4;
   -ms-grid-row-span: 1;
   -ms-grid-column: 4;
@@ -124,7 +138,7 @@ body {
   grid-area: 6/6/7/8;
 }
 
-.item--bg-main {
+.item--bg-brand {
   -ms-grid-row: 7;
   -ms-grid-row-span: 1;
   -ms-grid-column: 1;
