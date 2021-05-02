@@ -1,4 +1,108 @@
 .header {
-
     grid-area: 1/1/2/8;
+
+    padding: 2.5rem 14.5rem 7.5rem 18rem;
+    background: url(../../assets/img/header_g.png) no-repeat right/cover;
+
+    // min-height: 840px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 16.5rem;
+}
+
+.header__logo {
+    letter-spacing: -0.035em;
+    color: $brand;
+}
+
+.header__list {
+    display: flex;
+
+}
+
+.header__item {
+    &:not(:last-child) {
+        margin-right: 1.5rem;
+    }
+}
+
+.header__link {
+    font-size: 1.4rem;
+    color: $primary;
+}
+
+.header__btn {
+    min-width: 15rem;
+    min-height: 5rem;
+
+    padding: 2rem;
+
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+
+    background: $brand;
+    border-radius: 5rem;
+
+}
+
+
+.header__content {
+    max-width: 48.5rem;
+}
+
+.header__title {
+    letter-spacing: -0.035em;
+    color: $brand;
+
+    margin-bottom: 3rem;
+
+    font-size: 2.4rem;
+}
+
+.header__subtitle {
+    margin-bottom: 5rem;
+
+    font-size: 4.8rem;
+    letter-spacing: -0.035em;
+}
+
+.header__text {
+    margin-bottom: 7.5rem;
+
+    line-height: 1.8;
+}
+
+.header__boxes {
+    display: flex;
+    align-items: center;
+}
+
+.header__button {
+    min-width: 15rem;
+    min-height: 5rem;
+
+    font-size: 1.6rem;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $title-color;
+
+    background-color: transparent;
+    border: none;
+}
+
+.header__button--bg {
+    margin-right: 4rem;
+
+    color: #FFFFFF;
+
+    background: $title-color;
 }
