@@ -1,3 +1,25 @@
+.box {
+       // padding: 8rem 6rem 4rem 10.5rem;
+       padding: 7.5rem 6rem 3rem 9.5rem;
+}
+
+.box__title {
+       margin-bottom: 3rem;
+
+       font-size: 2.8rem;
+       letter-spacing: -0.03em;
+       text-transform: capitalize;
+       font-weight: 400;
+}
+
+.box__text {
+       font-size: 1.6rem;
+       line-height: 1.55;
+       letter-spacing: -0.03em;
+       color: $primary-opacity;
+
+}
+
 .box--1 {
        grid-area: 8/1/9/3;
 }
@@ -21,9 +43,6 @@
 
 .box--6 {
        grid-area: 9/6/10/8;
+
+       margin-bottom: 6rem;
 }
-
-
-
-
-

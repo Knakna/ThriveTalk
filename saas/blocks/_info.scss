@@ -1,7 +1,45 @@
-.info-img {
-    grid-area: 12/1/13/4;
+.info {
+    grid-area: 12/1/13/8;
+
+    display: flex;
+    justify-content: space-between;
+
+
 }
 
+
+
+.info-img__image {
+    width: 57rem;
+}
+
+
+
+
 .info-content {
-    grid-area: 12/4/13/8;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 9rem 16rem 9rem 7rem;
+
+    min-width: 60%;
+}
+
+.info-content__title {
+    margin-bottom: 5rem;
+
+    font-size: 1.4rem;
+    line-height: .8;
+    letter-spacing: -0.006em;
+    text-transform: uppercase;
+}
+
+.info-content__item {
+    max-width: 20rem;
+
+    font-size: 1.4rem;
+    line-height: 1.4;
+    letter-spacing: -0.006em;
+
+    color: $primary-opacity;
 }

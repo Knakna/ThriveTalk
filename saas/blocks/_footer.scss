@@ -1,3 +1,15 @@
 .footer {
     grid-area: 13/1/14/8;
+
+    min-height: 8rem;
+    
+    background-color: $brand;
+}
+
+.footer__copy {
+    font-size: 1.4rem;
+    line-height: .9;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+
 }

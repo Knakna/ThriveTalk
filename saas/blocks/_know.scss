@@ -2,6 +2,37 @@
        grid-area: 10/1/11/3;
 }
 
+
+
 .know-content {
        grid-area: 10/3/11/8;
+
+       padding: 10rem 16.5rem 4rem 10rem;
 }
+
+.know-content__title {
+       margin-bottom: 22.5rem;
+
+       font-size: 1.6rem;
+       line-height: .9;
+       letter-spacing: 0.06em;
+       text-transform: uppercase;
+}
+
+.know-content__text {
+       margin-bottom: 14rem;
+
+       font-size: 3.6rem;
+       font-weight: 700;
+       line-height: 1.6;
+       letter-spacing: -0.01em;
+}
+
+.know-content__logo {
+       @extend %logo;
+}
+
+.know-content__button {
+       @extend %button;
+}
+

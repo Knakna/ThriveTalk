@@ -1,7 +1,7 @@
 .header {
     grid-area: 1/1/2/8;
 
-    padding: 2.5rem 14.5rem 7.5rem 18rem;
+    padding: 2.5rem 13rem 7.5rem 17rem;
     background: url(../../assets/img/header_g.png) no-repeat right/cover;
 
     // min-height: 840px;
@@ -12,12 +12,11 @@
     justify-content: space-between;
     align-items: center;
 
-    margin-bottom: 16.5rem;
+    margin-bottom: 17.5rem;
 }
 
 .header__logo {
-    letter-spacing: -0.035em;
-    color: $brand;
+    @extend %logo;
 }
 
 .header__list {
@@ -27,7 +26,7 @@
 
 .header__item {
     &:not(:last-child) {
-        margin-right: 1.5rem;
+        margin-right: 3.3rem;
     }
 }
 
@@ -58,25 +57,25 @@
 }
 
 .header__title {
-    letter-spacing: -0.035em;
-    color: $brand;
+    @extend %logo;
 
-    margin-bottom: 3rem;
+    margin-bottom: 3.5rem;
 
     font-size: 2.4rem;
 }
 
 .header__subtitle {
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 
     font-size: 4.8rem;
-    letter-spacing: -0.035em;
+    letter-spacing: -0.03em;
+    line-height: 1.2;
 }
 
 .header__text {
-    margin-bottom: 7.5rem;
+    margin-bottom: 5rem;
 
-    line-height: 1.8;
+    line-height: 1.9;
 }
 
 .header__boxes {
@@ -85,22 +84,13 @@
 }
 
 .header__button {
-    min-width: 15rem;
-    min-height: 5rem;
+    @extend %button;
 
-    font-size: 1.6rem;
-    line-height: 1.5;
     align-items: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: $title-color;
-
-    background-color: transparent;
-    border: none;
 }
 
 .header__button--bg {
-    margin-right: 4rem;
+    margin-right: 2.5rem;
 
     color: #FFFFFF;
 

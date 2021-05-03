@@ -1,7 +1,46 @@
 .contact-content {
        grid-area: 11/1/12/6;
+
+       padding: 9.5rem 20rem 4rem 18rem;
+
+       color: #ffffff;
+       background-color: $primary;
 }
+
+.contact-content__title {
+       margin-bottom: 23rem;
+
+       font-size: 1.6rem;
+       line-height: .9;
+       letter-spacing: 0.06em;
+}
+
+.contact-content__subtitle {
+       margin-bottom: 5.5rem;
+
+       font-size: 6.4rem;
+       line-height: 1.3;
+       letter-spacing: -0.01em;
+}
+
+.contact-content__text {
+       margin-bottom: 5rem;
+
+       font-size: 3.6rem;
+       line-height: 1.6;
+       letter-spacing: -0.005em;
+}
+
+.contact-content__button {
+       @extend %button;
+
+       color: $brand;
+}
+
+
 
 .contact-img {
        grid-area: 11/6/12/8;
+
+       min-height: 80rem;
 }
