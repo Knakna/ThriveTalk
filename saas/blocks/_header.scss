@@ -19,7 +19,6 @@
 
 .header__list {
     display: flex;
-
 }
 
 .header__item {
@@ -43,8 +42,6 @@
 .header__link {
     font-size: 1.4rem;
     color: $primary;
-
-
 }
 
 .header__btn {
@@ -72,7 +69,6 @@
     &:active {
         background-color: darken($brand, 10%);
     }
-
 }
 
 
@@ -129,7 +125,7 @@
 
     color: #FFFFFF;
 
-    background: $title-color;
+    background-color: $title-color;
 
     &:hover {
         background-color: lighten($title-color, 10%);

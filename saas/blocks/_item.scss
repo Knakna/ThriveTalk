@@ -44,42 +44,38 @@
 
 
 .item--bg-dark {
-       grid-area: 6/1/7/3;
+       grid-column: 1/3;
 
        background-color: $primary;
 }
 
 .item--bg-blue {
-       grid-area: 6/3/7/7;
+       grid-column: 3/7;
 
        background-color: #0052C1;
 }
 
 .item--bg-img {
-       grid-area: 6/7/7/9;
+       grid-column: 7/9;
 
        background: $title-color url(../../assets/img/item.jpg) no-repeat center/cover;
 }
 
 
-
-
 .item--bg-brand {
-       grid-area: 7/1/8/3;
+       grid-column: 1/3;
 
        background-color: $brand;
 }
 
 .item--bg-light {
-       grid-area: 7/3/8/7;
+       grid-column: 3/7;
 
        background-color: #DEE1FF;
-
 }
 
 .item--bg-purple {
-       grid-area: 7/7/8/9;
+       grid-column: 7/9;
 
        background-color: #8F00FF;
-
 }

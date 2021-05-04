@@ -4,19 +4,11 @@
        display: flex;
 }
 
-// .know-img {
-//        grid-area: 10/1/11/3;
-// }
-
 .know-img__image {
        @extend %image;
 }
 
-
-
 .know-content {
-       // grid-area: 10/3/11/9;
-
        padding: 10rem 16.5rem 4rem 10rem;
 }
 

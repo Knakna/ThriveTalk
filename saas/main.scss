@@ -1,6 +1,6 @@
 @import "./fonts";
 @import "./vars";
-@import "./mixins";
+@import "./extends";
 
 html {
     font-size: 62.5%;
@@ -22,13 +22,12 @@ body {
         margin: 0 auto;
     }
 
-
-
-
 .page {
     display: grid;
 
     grid-template-columns: 25% 9% 5% 11% 13% 3% 9% 25%;
+
+    overflow: hidden;
 }
 
 
@@ -36,7 +35,6 @@ body {
 @import "./blocks/header";
 @import "./blocks/why";
 @import "./blocks/about";
-@import "./blocks/null";
 @import "./blocks/item";
 @import "./blocks/box";
 @import "./blocks/know";
