@@ -1,10 +1,8 @@
 .header {
-    grid-area: 1/1/2/8;
+    grid-column: 1/9;
 
-    padding: 2.5rem 13rem 7.5rem 17rem;
+    padding: 2rem 13rem 7.5rem 18rem;
     background: url(../../assets/img/header_g.png) no-repeat right/cover;
-
-    // min-height: 840px;
 }
 
 .header__top {
@@ -25,14 +23,28 @@
 }
 
 .header__item {
+    padding: 1rem;
+
     &:not(:last-child) {
-        margin-right: 3.3rem;
+        margin-right: 1.3rem;
     }
+
+    &:hover {
+        padding-bottom: 5px;
+
+        border-bottom: 5px solid #F4F9E2;
+        box-shadow: inset 0px -1px 0px #22356F;
+
+        transform: scaleX(1.1);
+    }
+
 }
 
 .header__link {
     font-size: 1.4rem;
     color: $primary;
+
+
 }
 
 .header__btn {
@@ -46,8 +58,20 @@
     text-align: center;
     text-transform: uppercase;
 
-    background: $brand;
+    background-color: $brand;
     border-radius: 5rem;
+
+    cursor: pointer;
+    transition: all .2s linear;
+
+    &:hover {
+        background-color: lighten($brand, 10%);
+
+    }
+
+    &:active {
+        background-color: darken($brand, 10%);
+    }
 
 }
 
@@ -87,6 +111,17 @@
     @extend %button;
 
     align-items: center;
+
+    transition: all .2s linear;
+
+    &:hover {
+        color: #ffffff;
+        background-color: lighten($title-color, 10%);
+    }
+
+    &:active {
+        background-color: darken($title-color, 10%);
+    }
 }
 
 .header__button--bg {
@@ -95,4 +130,12 @@
     color: #FFFFFF;
 
     background: $title-color;
+
+    &:hover {
+        background-color: lighten($title-color, 10%);
+    }
+
+    &:active {
+        background-color: darken($title-color, 10%);
+    }
 }

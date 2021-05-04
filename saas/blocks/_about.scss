@@ -15,7 +15,7 @@
 
 
 .about-content {
-    grid-area: 3/2/4/8;
+    grid-area: 3/2/4/9;
 
     padding: 15rem 0 2.5rem 6.5rem;
 
@@ -45,6 +45,42 @@
     text-transform: capitalize;
     line-height: 1.2;
 
+}
+
+
+.about-item--pink {
+    grid-area: 4/1/5/2;
+
+    background-color: #FFE2DE;
+}
+
+.about-item--green {
+    grid-area: 4/2/5/5;
+
+    background-color: #C4E769;
+}
+
+.about-item--brand {
+    grid-area: 4/5/5/8;
+
+    background-color: $brand;
+}
+
+.about-item--blue {
+    grid-area: 4/8/5/9;
+
+    background-color: #0052C1;
+}
+
+.about-item__title {
+    position: relative;
+
+    font-size: 3.2rem;
+    line-height: 1.05;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+
+
     &::before {
         content: "";
         position: absolute;
@@ -52,8 +88,8 @@
         width: 9px;
         height: 9px;
 
-        left: 55px;
-        top: 115px;
+        left: -35px;
+        top: 10px;
 
         background-color: #E9B730;
         border-radius: 50%;
@@ -67,51 +103,9 @@
         height: 6px;
         opacity: .5;
 
-        left: 50px;
-        top: 65px;
+        left: -40px;
+        top: -30px;
 
         box-shadow: inset 0px -1px 0px #FFFFFF;
     }
-}
-
-
-.about-item--pink {
-    grid-area: 4/1/5/2;
-
-    position: relative;
-
-    background-color: #FFE2DE;
-}
-
-.about-item--green {
-    grid-area: 4/2/5/4;
-
-    position: relative;
-
-    background-color: #C4E769;
-}
-
-.about-item--brand {
-    grid-area: 4/4/5/7;
-
-    position: relative;
-
-    background-color: $brand;
-}
-
-.about-item--blue {
-    grid-area: 4/7/5/8;
-
-    position: relative;
-
-
-    background-color: #0052C1;
-}
-
-.about-item__title {
-
-    font-size: 3.2rem;
-    line-height: 1.05;
-    letter-spacing: -0.006em;
-    color: #FFFFFF;
 }

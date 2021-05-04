@@ -1,11 +1,21 @@
-.know-img {
-       grid-area: 10/1/11/3;
+.know {
+       grid-column: 1/9;
+
+       display: flex;
+}
+
+// .know-img {
+//        grid-area: 10/1/11/3;
+// }
+
+.know-img__image {
+       @extend %image;
 }
 
 
 
 .know-content {
-       grid-area: 10/3/11/8;
+       // grid-area: 10/3/11/9;
 
        padding: 10rem 16.5rem 4rem 10rem;
 }
@@ -34,5 +44,15 @@
 
 .know-content__button {
        @extend %button;
-}
 
+       transition: all .2s linear;
+
+       &:hover {
+              color: #ffffff;
+              background-color: lighten($title-color, 10%);
+       }
+
+       &:active {
+              background-color: darken($title-color, 10%);
+       }
+}

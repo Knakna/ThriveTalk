@@ -5,13 +5,14 @@
 }
 
 .item__title {
-position: relative;
+       position: relative;
 
-padding: 12.5rem 17rem 28rem 10.5rem;
+       padding: 12.5rem 17rem 28rem 10.5rem;
 
-font-size: 3.2rem;
-line-height: 1.05;
-letter-spacing: -0.006em;
+       font-size: 3.2rem;
+       line-height: 1.05;
+       letter-spacing: -0.006em;
+
        &::before {
               content: "";
               position: absolute;
@@ -38,7 +39,7 @@ letter-spacing: -0.006em;
               top: 85px;
 
               box-shadow: inset 0px -1px 0px #FFFFFF;
-          }
+       }
 }
 
 
@@ -49,18 +50,19 @@ letter-spacing: -0.006em;
 }
 
 .item--bg-blue {
-       grid-area: 6/3/7/6;
+       grid-area: 6/3/7/7;
 
        background-color: #0052C1;
 }
 
 .item--bg-img {
-       grid-area: 6/6/7/8;
+       grid-area: 6/7/7/9;
 
-
-       background-color: $title-color;
-       background-image: url(../../assets/img/item.jpg);
+       background: $title-color url(../../assets/img/item.jpg) no-repeat center/cover;
 }
+
+
+
 
 .item--bg-brand {
        grid-area: 7/1/8/3;
@@ -69,14 +71,14 @@ letter-spacing: -0.006em;
 }
 
 .item--bg-light {
-       grid-area: 7/3/8/6;
+       grid-area: 7/3/8/7;
 
        background-color: #DEE1FF;
 
 }
 
 .item--bg-purple {
-       grid-area: 7/6/8/8;
+       grid-area: 7/7/8/9;
 
        background-color: #8F00FF;
 

@@ -1,5 +1,11 @@
+.contact {
+       grid-column: 1/9;
+
+       display: flex;
+}
+
 .contact-content {
-       grid-area: 11/1/12/6;
+       // grid-area: 11/1/12/7;
 
        padding: 9.5rem 20rem 4rem 18rem;
 
@@ -40,7 +46,11 @@
 
 
 .contact-img {
-       grid-area: 11/6/12/8;
+       // grid-area: 11/7/12/9;
 
        min-height: 80rem;
+}
+
+.contact-img__image {
+       @extend %image;
 }
