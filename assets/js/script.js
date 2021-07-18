@@ -1,16 +1,13 @@
 
 
-// https://micku7zu.github.io/vanilla-tilt.js/
+// open/close nav
 
-VanillaTilt.init(document.querySelector(".about__img"), {
-    max: 25,
-    speed: 400
-});
-
-
-// https://wowjs.uk/
-
-new WOW().init();
+$(document).ready(function () {
+    $(".burger").click(function (e) {
+        $(".burger__line,.header__nav").toggleClass('active');
+        $("body").toggleClass('lock');
+    })
+  });
 
 
 

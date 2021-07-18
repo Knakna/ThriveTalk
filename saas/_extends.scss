@@ -5,46 +5,62 @@
 // }
 
 %logo {
-    letter-spacing: -0.035em;
-    color: $brand;
-  }
-
-  %button {
-    width: 15rem;
-    min-height: 5rem;
-
-    font-size: 1.6rem;
-    line-height: 1.5;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: $title-color;
-    background-color: transparent;
-    border: none;
-  }
-
-  %image {
-    // width: 100%;
-    height: 100%
-
-
-  }
-
-
-  // ________
-
-  @mixin burgerLine() {
-    position: relative;
-
-    display: block;
-
-    width: 100%;
-    height: 3px;
-
-    border-radius: 1px;
-    background-color: #000;
-    border: 0;
-
-    transition: all .5s linear;
-    z-index: 6;
+  letter-spacing: -0.035em;
+  color: $brand;
 }
 
+%button {
+  width: 15rem;
+  min-height: 5rem;
+
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $title-color;
+  background-color: transparent;
+  border: none;
+}
+
+%image {
+  // width: 100%;
+  height: 100%
+}
+
+
+// ________
+
+@mixin burgerLine() {
+  position: relative;
+
+  display: block;
+
+  width: 100%;
+  height: 3px;
+
+  border-radius: 1px;
+  background-color: #000;
+  border: 0;
+
+  transition: all .5s linear;
+  z-index: 6;
+}
+
+
+@mixin burgerCross() {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 50px;
+  height: 3px;
+
+  border-radius: 1px;
+  background-color: $brand;
+
+  z-index: 6;
+  opacity: 1;
+
+  transition: all .5s linear;
+}

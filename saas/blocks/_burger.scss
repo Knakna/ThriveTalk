@@ -71,7 +71,16 @@
             transition: all .5s linear;
             z-index: 25;
 
+            &::after {
+                @include burgerCross();
+                transform: rotate(-45deg);
+            }
 
+            &::before {
+                @include burgerCross();
+                transform: rotate(45deg);
+            }
         }
+
     }
 }
