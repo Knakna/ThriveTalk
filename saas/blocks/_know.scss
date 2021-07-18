@@ -2,6 +2,20 @@
        grid-column: 1/9;
 
        display: flex;
+
+       @media (max-width: 1080px) {
+              max-height: 60rem;
+       }
+
+}
+
+.know-img {
+       @media (max-width: 1280px) {
+              flex-basis: 40%;
+
+              overflow: hidden;
+       }
+
 }
 
 .know-img__image {
@@ -10,6 +24,20 @@
 
 .know-content {
        padding: 10rem 16.5rem 4rem 10rem;
+
+       @media (max-width: 1280px) {
+              flex-basis: 60%;
+
+              padding: 5rem;;
+       }
+
+}
+
+.know-content {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+
 }
 
 .know-content__title {
@@ -19,6 +47,10 @@
        line-height: .9;
        letter-spacing: 0.06em;
        text-transform: uppercase;
+
+       @media (max-width: 1080px) {
+              margin-bottom: 0rem;
+       }
 }
 
 .know-content__text {
@@ -28,6 +60,16 @@
        font-weight: 700;
        line-height: 1.6;
        letter-spacing: -0.01em;
+
+       @media (max-width: 1280px) {
+              font-size: 2.6rem;
+       }
+
+       @media (max-width: 1080px) {
+              margin-bottom: 0rem;
+       }
+
+
 }
 
 .know-content__logo {

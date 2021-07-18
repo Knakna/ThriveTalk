@@ -9,12 +9,20 @@
 
        background-color: $brand;
        color: #FFFFFF;
+
+       @media (max-width: 1280px) {
+              padding: 8rem;
+          }
 }
 
 .why-content__title {
        margin-bottom: 8rem;
 
        font-size: 3.6rem;
+
+       @media (max-width: 1280px) {
+              margin-bottom: 5rem;
+          }
 }
 
 .why-content__text {
@@ -24,6 +32,10 @@
 
 .why-content__text-bold {
        font-size: 2.4rem;
+}
+
+.why-img {
+       min-width: 33.3%;
 }
 
 .why-img__image {

@@ -2,12 +2,21 @@
     grid-column: 1/9;
 
     display: flex;
+
+    @media (max-width: 1080px) {
+flex-direction: column;
+ }
 }
 
 .info-img__image {
     width: 57rem;
 
     @extend %image;
+
+    @media (max-width: 1080px) {
+       width: 100%;
+ }
+
 }
 
 .info-content {
@@ -17,6 +26,10 @@
     padding: 10rem 16rem 9rem 10rem;
 
     min-width: 60%;
+
+    @media (max-width: 1280px) {
+        padding: 6rem;
+    }
 }
 
 .info-content__title {

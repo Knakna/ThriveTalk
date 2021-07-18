@@ -2,6 +2,10 @@
        grid-column: 1/9;
 
        display: flex;
+
+       @media (max-width: 1080px) {
+             flex-direction: column;
+          }
 }
 
 .contact-content {
@@ -9,6 +13,10 @@
 
        color: #ffffff;
        background-color: $primary;
+
+       @media (max-width: 1280px) {
+              padding: 8rem;
+          }
 }
 
 .contact-content__title {
@@ -43,8 +51,13 @@
 
 .contact-img {
        min-height: 80rem;
+
+       @media (max-width: 1080px) {
+              display: none;
+           }
 }
 
 .contact-img__image {
        @extend %image;
+
 }
