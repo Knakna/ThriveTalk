@@ -97,8 +97,6 @@
 .header__item {
     padding: 1rem;
 
-
-
     &:not(:last-child) {
         margin-right: 1.3rem;
 
@@ -115,12 +113,15 @@
 
         transform: scaleX(1.1);
     }
-
 }
 
 .header__link {
     font-size: 1.4rem;
     color: $primary;
+
+    @media (max-width: 940px) {
+        font-size: 5rem;
+    }
 }
 
 .header__btn {
@@ -142,14 +143,11 @@
 
     &:hover {
         background-color: lighten($brand, 10%);
-
     }
 
     &:active {
         background-color: darken($brand, 10%);
     }
-
-
 }
 
 
@@ -210,18 +208,16 @@
     transition: all .2s linear;
 
     &:hover {
-        color: #ffffff;
-        background-color: lighten($title-color, 10%);
+
+        background-color: transparent;
     }
 
-    &:active {
-        background-color: darken($title-color, 10%);
+    &:first-child {
+        margin-right: 2.5rem;
     }
 }
 
-.header__button--bg {
-    margin-right: 2.5rem;
-
+.header__button.active {
     color: #FFFFFF;
 
     background-color: $title-color;

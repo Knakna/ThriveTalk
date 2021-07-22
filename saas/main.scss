@@ -4,7 +4,7 @@
 
 html {
     font-size: 62.5%;
-  }
+}
 
 body {
     font-family: 'Larsseit', sans-serif;
@@ -15,12 +15,12 @@ body {
     background-color: #ffffff;
 }
 
-    .container {
-        max-width: 144rem;
-        // width: 100%;
-        padding: 0;
-        margin: 0 auto;
-    }
+.container {
+    max-width: 144rem;
+    // width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
 
 .page {
     display: grid;
@@ -42,12 +42,3 @@ body {
 @import "./blocks/contact";
 @import "./blocks/info";
 @import "./blocks/footer";
-
-
-
-
-
-
-
-
-
