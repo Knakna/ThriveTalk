@@ -65,7 +65,7 @@ body {
   -ms-grid-column-span: 8;
   grid-column: 1/9;
   padding: 2rem 13rem 7.5rem 18rem;
-  background: url(../../assets/img/header_g.png) no-repeat right/cover;
+  background: url(../../assets/img/header.png) no-repeat right/cover;
 }
 
 @media (max-width: 940px) {
